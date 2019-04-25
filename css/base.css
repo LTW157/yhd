@@ -1,0 +1,112 @@
+.clearfix:after {
+    height: 0;
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a,
+body,
+button,
+caption,
+dd,
+div,
+dl,
+dt,
+em,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+img,
+input,
+label,
+li,
+ol,
+p,
+span,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+b {
+    font-weight: 400;
+}
+
+s,
+del {
+    text-decoration: none;
+}
+
+body {
+    font: 14px/1.5 "PingFang SC", "Lantinghei SC", "Microsoft YaHei", "HanHei SC", "Helvetica Neue",
+        "Open Sans", Arial, "Hiragino Sans GB", "微软雅黑", STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif
+}
+
+.ellipsis {
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+/* 版心 */
+.w {
+    width: 1070px;
+    margin: auto;
+}
+/* icomoon字体 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?kovqeo');
+    src:  url('../fonts/icomoon.eot?kovqeo#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?kovqeo') format('truetype'),
+      url('../fonts/icomoon.woff?kovqeo') format('woff'),
+      url('../fonts/icomoon.svg?kovqeo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
