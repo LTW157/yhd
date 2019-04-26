@@ -1,6 +1,29 @@
-
 $(function(){
     new Lunbo('.lunbo')
+
+    countDown()
+    setInterval(countDown, 1000);
+
+
+
+    /**
+     * @function countDown 倒计时
+     */
+    function countDown() {
+        var endTime = new Date(2019, 4, 14, 0, 0, 0).getTime()
+        var startTime = Date.now()
+        var countTime = endTime - startTime
+        var hour = parseInt(countTime / 1000 / 3600)
+        var minute = parseInt(countTime / 1000 / 60 % 60)
+        var second = parseInt(countTime / 1000 % 60)
+        hour = hour >= 10 ? hour : "0" + hour
+        minute = minute >= 10 ? minute : "0" + minute
+        second = second >= 10 ? second : "0" + second
+        $('.countDown_hour').text(hour)
+        $('.countDown_minute').text(minute)
+        $('.countDown_second').text(second)
+    }
+
 })
 
 

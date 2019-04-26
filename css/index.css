@@ -1,3 +1,6 @@
+body{
+    background: #f5f5f5
+}
 /* top start */
 .top{
     height: 30px;
@@ -77,6 +80,7 @@
 .header{
     height: 180px;
     width: 100%;
+    background: #fff;
 }
 .logo-1,
 .logo-2{
@@ -235,7 +239,6 @@
     position: absolute;
     bottom: 20px;
     left: 50%;
-    /* margin-left: -50px; */
     background: rgb(255, 255, 255,.5);
     border-radius: 10px;
 }
@@ -284,9 +287,187 @@
     content: '\ea53';
     margin-right: 6px;
 }
-
 /* lunbo end */
 
 
+/* new_person_channel start */
+.new_person_channel{
+    height: 110px;
+    margin-top: 40px;
+}
+.new_person_channel img{
+    width: 100%;
+    height: 100%;
+}
+/* new_person_channel end */
+
+
+/* super_single start */
+.super_single{
+    height: 444px;
+    margin-top: 20px;
+    background: url('../img/super_single_bg.png') no-repeat top;
+    overflow: hidden;
+}
+.super_single dl{
+    margin: 12px 10px 0;
+}
+.super_single dl dt,
+.super_single dl dd{
+    width: 210px;
+    height: 216px;
+    background: #fff;
+    float: left;
+}
+.super_single dl dt{
+    background: 0;
+}
+.super_single dl dt a,
+.super_single dl dd a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.super_single dl dt img{
+    width: 129px;
+    height: 36px;
+    margin: 22px 0 0 20px;
+    display: block;
+}
+.super_single .single-text{
+    width: 180px;
+    height: 40px;
+    margin-left: 24px;
+}
+.super_single .sing_text_font{
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.super_single .single_text_line{
+    height: 3px;
+    width: 28px;
+    display: block;
+    background: #fff;
+    margin-top: 8px;
+}
+.super_single .single-djs{
+    margin-left: 24px;
+}
+.super_single .single-djs p{
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 0;
+    padding-left: 25px;
+    position: relative;
+}
+.super_single .single-djs p::before{
+    font-family: 'icomoon';
+    content: '\e950';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.super_single .single-djs span{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #161616;
+    color: #fff;
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: bold;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.super_single .single-djs i{
+    display: inline-block;
+    width: 10px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    top: -3px;
+    font-style: normal;
+}
+.super_single dl dd:hover{
+    -webkit-box-shadow: 0 5px 31px 0 rgba(0,0,0,0.09);
+    -moz-box-shadow: 0 5px 31px 0 rgba(0,0,0,0.09);
+    box-shadow: 0 5px 31px 0 rgba(0,0,0,0.09);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.super_single .single-dd-top{
+    width: 210px;
+    height: 135px;
+    position: relative;
+}
+.super_single .single-dd-top img{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.super_single .single-dd-bottom{
+    height: 81px;
+    width: 150px;
+    /* background: skyblue; */
+    margin: 0 auto;
+}
+.super_single .single-dd-bottom .s-title{
+    width: 153px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.super_single .single-dd-bottom .s-bar{
+    width: 150px;
+    height: 6px;
+    margin-top: 10px;
+    background-color: #e2e2e2;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.super_single .single-dd-bottom .s-progress{
+    width: 60%;
+    height: 100%;
+    border-radius: 100px;
+    background: #d9161d;
+}
+.super_single .single-dd-bottom .s-con{
+    padding-top: 12px;
+    text-align: center;
+}
+.super_single .single-dd-bottom .s-con .s-now-price{
+    color: #e50113;
+    font-weight: bold;
+    font-size: 14px;
+}
+.super_single .single-dd-bottom .s-con .s-old-price{
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+
+/* super_single end */
 
 
